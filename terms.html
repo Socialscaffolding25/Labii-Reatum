@@ -5,21 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terms of Service — Labii Reatum</title>
   <meta name="description" content="The terms governing use of the Labii Reatum website and applications.">
-  <meta name="theme-color" content="#FF5C00">
+  <meta name="theme-color" content="#FFFFFF">
   <link rel="canonical" href="https://labiireatum.co.uk/terms.html">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="lr" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#2563EB"/>
+      </linearGradient>
+    </defs>
+    <symbol id="mark" viewBox="0 0 24 24">
+      <path d="M5 4v13h8" fill="none" stroke="#F4F1EC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13 12h6m0 0-3-3m3 3-3 3" fill="none" stroke="url(#lr)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
   <header class="site">
     <div class="wrap">
-      <a href="index.html" class="brand">LABII REATUM <span>&rarr;</span></a>
+      <a href="index.html" class="logo">
+        <span class="mark"><svg><use href="#mark"/></svg></span>
+        <span class="word">Labii&nbsp;Reatum</span>
+      </a>
       <nav class="main">
         <a href="index.html#what">What we do</a>
         <a href="index.html#portfolio">Portfolio</a>
         <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="index.html#contact" class="btn-sm">Contact</a>
       </nav>
     </div>
   </header>
@@ -119,17 +134,22 @@
   <footer class="site">
     <div class="wrap">
       <div class="cols">
-        <div>
-          <a href="index.html" class="brand">LABII REATUM <span>&rarr;</span></a>
+        <div class="about">
+          <a href="index.html" class="logo">
+            <span class="mark"><svg><use href="#mark"/></svg></span>
+            <span class="word">Labii&nbsp;Reatum</span>
+          </a>
           <p>A software studio and holding company building and operating its own portfolio of applications.</p>
         </div>
         <nav>
+          <div class="colhead">Company</div>
           <a href="index.html#what">What we do</a>
           <a href="index.html#portfolio">Portfolio</a>
           <a href="index.html#about">About</a>
           <a href="index.html#contact">Contact</a>
         </nav>
         <nav>
+          <div class="colhead">Legal</div>
           <a href="privacy.html">Privacy Policy</a>
           <a href="terms.html">Terms of Service</a>
           <a href="mailto:info@labiireatum.co.uk">info@labiireatum.co.uk</a>
